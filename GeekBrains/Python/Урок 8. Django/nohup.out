@@ -1,0 +1,24 @@
+events.js:177
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at internal/fs/streams.js:173:12
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:477:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+events.js:177
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at internal/fs/streams.js:173:12
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:477:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}

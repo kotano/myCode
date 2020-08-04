@@ -1,0 +1,12 @@
+# [submodule "python-project-lvl1"]
+# 	path = python-project-lvl1
+# 	url = https://github.com/kotano/python-project-lvl1.git
+# [submodule "python-project-lvl2"]
+# 	path = python-project-lvl2
+# 	url = https://github.com/kotano/python-project-lvl2.git
+# [submodule "Tempo"]
+# 	path = Tempo
+# 	url = https://github.com/kotano/Tempo.git
+[submodule "Bots/realtor_bot"]
+	path = Bots/realtor_bot
+	url = https://github.com/kotano/realtor_bot

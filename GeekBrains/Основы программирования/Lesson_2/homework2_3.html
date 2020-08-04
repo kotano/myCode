@@ -1,0 +1,15 @@
+<meta charset="utf-8">
+
+<script>
+    var deposit = +prompt("Введите сумму депозита: ")
+    var depositPercentage =(+prompt("Какой процент начислять ежегодно? "))
+    var percent = depositPercentage/100
+    var years = 5;
+    var total = ("Изменение размера вклада по годам:\n")
+    for (currentYear=1; currentYear <= years; currentYear++) {
+        deposit =  deposit + (deposit*percent)
+        total =(total + currentYear + "год: " + deposit.toFixed(2) + " рублей \n")
+    }
+    alert(total)
+
+</script>

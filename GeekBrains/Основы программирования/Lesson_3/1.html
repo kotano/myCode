@@ -1,0 +1,36 @@
+<script>
+    var numbers = [1, 2, 3, 4, 5];
+
+    alert("Запомните числа и их порядок: " + numbers);
+
+    var userAnswer = +prompt("Каким было первое число? ");
+    alert(numbers[0]);
+// first
+    if (userAnswer == numbers[0]) {
+        alert("Все верно")
+    }
+    else {
+        ("Ээ нет. Правильный ответ " + numbers[0])
+    }
+//last
+    userAnswer = +prompt("А последнее?");
+    // alert(number[4]) // Нехорошо так делать!!!
+    // alert(numbers.length) // 5
+    alert(numbers[numbers.length - 1]); // the same as number[4]
+
+    if(userAnswer == numbers[numbers.length - 1]) {
+        alert("В точку!")
+    }
+    else{
+        alert("Нет( Правильный ответ " + numbers[numbers.length - 1])
+    }
+// middle 
+    var n = parseInt(Math.random() * numbers.length)
+    userAnswer = +prompt("А как насчет числа под номером " + (n+1) + "?");
+    if (userAnswer == numbers[ n ]) {
+        alert("Все верно")
+    }
+    else {
+        alert("Нет, правильное число " + numbers[n]);
+    }
+</script>

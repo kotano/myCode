@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+<head>
+    <title>Загадки</title>
+
+</head>
+<body>
+<h1>Поиграем в загадки</h1>
+
+<script type="text/javascript">
+
+    var enigma1 = ("Висит груша нельзя скушать")
+    var enigma2 = ("Какой конь не ест овса?")
+    var enigma3 = ("Кто ходит сидя?")
+    var rightAnswerCount = 0;
+
+    var playerAnswer1 = prompt(enigma1)
+    var playerAnswer2 = prompt(enigma2)
+    var playerAnswer3 = prompt(enigma3)
+
+    if (playerAnswer1 == ("Лампочка") || playerAnswer1 == ("лампочка") || playerAnswer1 == ("ЛАМПОЧКА")) {
+        rightAnswerCount += 1
+    } 
+    if (playerAnswer2 == ("Мертвый") || playerAnswer2 == ("Шахматный")) {
+        rightAnswerCount += 1
+    } 
+    if (playerAnswer3 == ("Шахматист")) {
+        rightAnswerCount += 1
+    } 
+    document.write("<h2 style=color:red;>Вы отгадали " + rightAnswerCount + " загадок.</h2>")
+
+</script>
+
+</body>

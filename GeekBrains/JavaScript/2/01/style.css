@@ -1,0 +1,46 @@
+#matrix1
+{
+	float: left;
+	width: 400px;
+	height: 400px;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;	
+}
+
+#matrix1 .cell
+{
+	float: left;
+	width: 19px;
+	height: 19px;	
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;	
+}
+
+#matrix1 .on
+{
+	background-color: red;
+}
+
+#matrix2
+{
+	float: left;
+	margin-left: 10px;
+	width: 200px;
+	height: 200px;
+	border-top: 1px solid red;
+	border-left: 1px solid red;	
+}
+
+#matrix2 .cell
+{
+	float: left;
+	width: 19px;
+	height: 19px;	
+	border-bottom: 1px solid red;
+	border-right: 1px solid red;	
+}
+
+#matrix2 .on
+{
+	background-color: #999;
+}

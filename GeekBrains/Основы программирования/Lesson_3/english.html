@@ -1,0 +1,38 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+    
+    var words = [
+        ["food", "еда"],
+        ["bike", "велосипед"],
+        ["apple", "яблоко"],
+        ["do", "делать"],
+        ["mean", "иметь в виду"],
+    ]
+
+    while(words.length != 0 ) {
+        var i = parseInt(Math.random() * words.length);
+        var userTranslate = prompt("Как переводится слово: " + words[i][0]);
+        if (userTranslate == words[i][1]) {
+            alert("Вы угадали!")
+            words.splice(i,1);
+        } else {
+            alert("Правильный ответ: " + words[i][1])
+        }
+    }
+    alert("Поздравляем вы выучили эти слова! ")
+    
+
+
+
+
+
+
+    // alert(words[0]); //food еда
+    // alert(words[1]); // "bike", "велосипед"
+    // alert(words)[0][0]; // food
+    // alert(words)[0][1]; // еда
+    // alert(words[0][3]) //undefined
+
+
+</script>

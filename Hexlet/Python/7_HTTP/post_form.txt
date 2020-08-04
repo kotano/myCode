@@ -1,0 +1,8 @@
+telnet localhost 8080
+
+POST /session/new HTTP/1.1
+host: hexlet.local
+Content-Type: application/x-www-form-urlencoded
+Content-length: 30
+
+username=admin&password=secret

@@ -1,0 +1,7 @@
+telnet localhost 8080
+POST /upload HTTP/1.1
+host: hexlet.local
+Content-Type: text/plain
+Content-Length: 15
+
+my request body

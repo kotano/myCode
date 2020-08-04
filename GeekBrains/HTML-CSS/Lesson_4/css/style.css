@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    padding: unset;
+}
+
+tr, td {
+    border: 2px solid black;
+}
+td {
+    height: 20px;
+    width: 33%;
+}
+
+#cell32, #cell22 {
+    height: 100px;
+}
+
+td[rowspan="2"] {
+    height: 40px;
+}

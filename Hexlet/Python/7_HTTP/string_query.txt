@@ -1,0 +1,4 @@
+telnet localhost 8080
+
+GET /?key=value&another_key=another_key=another_value HTTP/1.1
+Host: hexlet.local

@@ -1,0 +1,109 @@
+<!Doctype html>
+<HTML>
+<HEAD>
+<form>
+    <style type="text/css">
+        td input[type=text],[type=password],[type=url],[type=date],[type=email] {
+            width: 99%;
+        }
+
+        label:hover {
+            border: chocolate dotted 2px;
+        }
+
+        input {
+            border-color: transparent;
+        }
+
+        .to_center {
+            text-align: center;
+        }
+
+        textarea {
+            resize: none;
+            border: 0ch;
+        }
+
+        table {
+            border-collapse: collapse;
+            padding: 0ch;
+            border-spacing: 0cm;
+        }
+        
+        td {
+            border: 2px solid black;
+        }
+
+        .to_fill {
+            width: 
+        }
+
+    </style>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+</HEAD>
+<BODY>
+<table>
+    <tr>
+        <td><label class="to_fill" for="surname">Ваша фамилия   </label></td>
+        <td><input type="text" id="surname" name="surname"/></td>
+    </tr>
+    <tr>
+        <td>Имя</td>
+        <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+        <td>Пол</td>
+        <td>    <label> <input type="radio" name="sex" value="Male"/>Мужской </label>
+                        <br/>
+                <label> <input type="radio" name="sex" value="Female"/>Женский </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Вставьте фото</td>
+        <td><input type="file"/> </td>
+    </tr>
+    <tr>
+        <td>Введите адрес электронной почты</td>
+        <td><input style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: black" type="email" name="Email" id=""/> </td>
+    </tr>
+    <tr>
+        <td>Введите пароль</td>
+        <td><input type="password" name="password" /> </td>
+    </tr>
+    <tr>
+        <td>Адрес сайта</td>
+        <td><input type="url" value="http://"/></td>
+    </tr>
+    <tr>
+        <td>Выберите дату рождения</td>
+        <td><input class="to_center" type="date"></td>
+    </tr>
+    <tr>
+        <td>Предпочитаемая кухня</td>
+        <td>    
+            <label> <input type="checkbox" name=food checked=checked value="russian"/>Русская </label> <br/>
+            <label> <input type="checkbox" name=food value=french />Французская </label> <br>
+            <label> <input type="checkbox" name=food value=italian />Итальянская </label> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>Свободный ввод </td>
+        <td><textarea rows="10" cols="35" ></textarea> </textarea></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="2"><input type="submit" value="Принять"> </div> <input type="reset" value="Очистить"> </td>
+    </tr>
+</table>
+    
+</form>
+
+
+
+</BODY>
+
+
+
+
+</HTML>
+

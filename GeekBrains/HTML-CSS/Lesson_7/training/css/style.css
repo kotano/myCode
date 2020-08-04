@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+div {
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 0);
+}
+
+#container {
+    width: 768px;
+    min-height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background-color: rgb(170, 170, 170)
+}
+
+#left {
+    width:200px;
+    background-color: powderblue;
+    float:left;
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    
+}
+
+#content {
+    min-width: 568px;
+    min-height: 800px;
+    margin-left: 201px;
+    overflow: scroll;
+}
+
+#footer {
+    width:768px;
+    height: 100px;
+    z-index: 2;
+    background-color: violet;
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+#clr {
+    height: 100px;
+}

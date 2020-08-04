@@ -1,0 +1,17 @@
+<! doctype html>
+<html>
+    <head>
+        <title>Мой блог</title>
+        <meta charset='utf-8'>
+    </head>
+    <body>
+        <h1>Мой блог</h1>
+
+        {% for post in post_list %}
+            <p>
+                {{ post }}
+            </p>
+        {% endfor %}
+    </body>
+
+</html>

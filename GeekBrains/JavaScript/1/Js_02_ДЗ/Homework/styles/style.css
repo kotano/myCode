@@ -1,0 +1,19 @@
+#matrix {
+    margin: 40px auto;
+    margin-bottom: 100px;
+    border-top: 1px solid  #999 !important;
+    border-left: 1px solid #999 !important;
+    width: 400px;
+    height: 400px;
+}
+#matrix .cell {
+    border-bottom: 1px solid #999 !important;
+    border-right: 1px solid #999 !important;
+    float: left;
+    width: 19px;
+    height:19px;
+}
+h1 {
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+body {
+	margin: 0 auto;
+}
+
+#main {
+	width:751px;
+	margin: 0 auto;
+}
+
+#logo {
+	margin-left:20px;
+}
+
+table, td {
+	/*border: 1px solid*/ 
+	border-spacing:0;
+	border-collapse: collapse;
+	padding:0;
+}
+
+#header{
+	height:125px;
+	background-image: url("img/header.jpg");
+}
+
+#menu {
+	background-image: url("img/menu_background.jpg");
+	height:41px;
+	vertical-align:top;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	height:41px;
+}
+
+#menu ul li {
+	height:41px;
+	display:inline-block;
+	text-align:center;
+}
+
+#menu ul li a{
+	text-decoration:none;
+	color:black;
+	display:inline-block;
+	height:41px;
+	padding: 0em 1em;
+	vertical-align:middle;
+	position:relative;
+	top: -0.2em;
+}
+#menu ul li:after {
+	content: url("img/menu_sep.jpg");
+}
+
+#left {
+	width:150px;
+}
+
+#content {
+	width:601px;
+	height:300px;
+	vertical-align:top;
+}
