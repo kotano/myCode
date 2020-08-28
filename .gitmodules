@@ -10,3 +10,6 @@
 [submodule "Bots/realtor_bot"]
 	path = Bots/realtor_bot
 	url = https://github.com/kotano/realtor_bot.git
+[submodule "Django/learning_log"]
+	path = Django/learning_log
+	url = https://github.com/kotano/learning_log.git
